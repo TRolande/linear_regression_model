@@ -1,0 +1,22 @@
+{
+  "best_model_name": "Random Forest",
+  "target": "log_inflation (signed log1p of inflation_annual_cpi)",
+  "results": {
+    "Linear Regression (OLS)": {
+      "mse": 2.116955925705094,
+      "r2": 0.37848992839914275
+    },
+    "SGD Regressor (Gradient Descent)": {
+      "mse": 2.135823185259343,
+      "r2": 0.37295075221975793
+    },
+    "Decision Tree": {
+      "mse": 1.2382541798002396,
+      "r2": 0.6364650607020165
+    },
+    "Random Forest": {
+      "mse": 1.2351793442106997,
+      "r2": 0.6373677914883362
+    }
+  }
+}
