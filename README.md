@@ -20,10 +20,10 @@ This project addresses the critical challenge of forecasting macro-financial ins
 ---
 
 ## Publicly Available API Endpoint (Swagger UI)
-- **Public API Documentation & Interactive Testing (Swagger UI)**:  
-  `https://linear-regression-model-3-1dmq.onrender.com/docs`
-- **Prediction Endpoint (`POST`)**:  
-  `https://linear-regression-model-3-1dmq.onrender.com/predict`
+- **Public API Documentation & Interactive Browser Testing (Swagger UI)**:  
+  [https://linear-regression-model-3-1dmq.onrender.com/docs](https://linear-regression-model-3-1dmq.onrender.com/docs)
+- **Backend Prediction Endpoint (`POST`)**:  
+  `https://linear-regression-model-3-1dmq.onrender.com/predict` *(Programmatic POST endpoint used by Flutter app & Swagger UI)*
 
 > [!NOTE]
 > Evaluators can test predictions directly using the **Swagger UI** (`/docs` endpoint). Enter the 11 input parameters (`country`, `year`, `exch_usd`, `systemic_crisis`, `domestic_debt_in_default`, `sovereign_external_debt_default`, `gdp_weighted_default`, `independence`, `currency_crises`, `inflation_crises`, `banking_crisis`) to receive instantaneous CPI inflation forecasts.
