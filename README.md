@@ -4,7 +4,7 @@
 This project addresses the critical challenge of forecasting macro-financial instability and annual CPI inflation risk across African economies. By analyzing historical systemic, currency, sovereign-debt, and banking crisis indicators, our machine learning pipeline builds predictive models to deliver early inflation risk assessments. The mission is to empower decision-makers with accessible, data-driven inflation forecasting via a high-performance REST API and mobile app.
 
 ### Dataset Description & Source
-- **Data Source**: [African Financial Crises Dataset (Kaggle)](https://www.kaggle.com/datasets/chirin/african-financial-crises)
+- **Data Source**: [Africa Economic, Banking and Systemic Crisis Data (Kaggle)](https://www.kaggle.com/datasets/chirin/africa-economic-banking-and-systemic-crisis-data)
 - **Overview**: Contains 1,059 historical observations across 13 African nations spanning 1860–2014 (`Algeria`, `Angola`, `Central African Republic`, `Egypt`, `Ivory Coast`, `Kenya`, `Mauritius`, `Morocco`, `Nigeria`, `South Africa`, `Tunisia`, `Zambia`, `Zimbabwe`).
 - **Features**: Includes financial crisis indicators (`systemic_crisis`, `domestic_debt_in_default`, `sovereign_external_debt_default`, `currency_crises`, `inflation_crises`, `banking_crisis`), macroeconomic variables (`exch_usd`, `gdp_weighted_default`, `independence`, `year`), and target (`inflation_annual_cpi`).
 
