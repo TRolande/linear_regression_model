@@ -1,6 +1,6 @@
 # Predicting African Inflation Risk: End-to-End ML Model, REST API & Mobile Application
 
-## 📌 Project Overview & Mission
+## Project Overview & Mission
 This project addresses the critical challenge of forecasting macro-financial instability and annual CPI inflation risk across African economies. By analyzing historical systemic, currency, sovereign-debt, and banking crisis indicators, I built a complete end-to-end machine learning pipeline—from exploratory data analysis and model training to a deployed FastAPI backend and a cross-platform Flutter mobile application.
 
 The primary mission is to empower central bank analysts, international development researchers, and policy planners with an accessible, data-driven early-warning tool to identify periods of elevated inflation risk.
@@ -25,7 +25,7 @@ The primary mission is to empower central bank analysts, international developme
 
 ---
 
-## 🧠 Machine Learning Development Narrative
+## Machine Learning Development Narrative
 
 ### 1. Exploratory Data Analysis & Target Transformation
 When I first inspected the raw dataset, the most striking pattern was the presence of extreme hyperinflation events—most notably Zimbabwe's 2008 hyperinflation, which reached nearly ~22,000,000% annual CPI growth. When computing initial correlation heatmaps on raw inflation data, virtually all crisis features showed near-zero correlation. The hyperinflation outlier was completely drowning out the learning signal for ordinary economic years.
@@ -56,7 +56,7 @@ To drive the prediction loss even lower in future iterations, I recommend:
 
 ---
 
-## 🛠️ Hyperparameters & Model Optimization
+## Hyperparameters & Model Optimization
 
 ### Understanding Hyperparameters
 Hyperparameters are configuration settings specified *prior* to model training that govern learning capacity, tree architecture, and regularization. Unlike model parameters (weights/coefficients), which the algorithm learns automatically from data, hyperparameters must be tuned by the engineer.
@@ -75,7 +75,7 @@ I used **GridSearchCV** with 5-Fold Cross-Validation to systematically select op
 
 ---
 
-## ⚡ Production REST API Architecture (FastAPI)
+## Production REST API Architecture (FastAPI)
 
 To serve the model in production, I created a FastAPI application (`summative/API/prediction.py`):
 
@@ -91,7 +91,7 @@ Macroeconomic dynamics evolve over time due to policy changes or global shocks (
 
 ---
 
-## 📱 Mobile Application Design (Flutter)
+## Mobile Application Design (Flutter)
 
 The mobile client (`summative/FlutterApp`) provides an intuitive frontend interface:
 
@@ -102,7 +102,7 @@ The mobile client (`summative/FlutterApp`) provides an intuitive frontend interf
 
 ---
 
-## 🌍 Real-World Impact, Ethical Considerations & Limitations
+## Real-World Impact, Ethical Considerations & Limitations
 
 - **Policy Value**: Early inflation risk forecasting provides economic decision-makers with actionable signals to adjust monetary policy before debt defaults and currency devaluation escalate.
 - **Data Coverage Limitations**: The model is trained on 1,059 historical observations across **13 African nations** (1860–2014). Extrapolating predictions to non-represented African countries or post-2014 structural policy regimes requires careful human oversight.
@@ -110,7 +110,7 @@ The mobile client (`summative/FlutterApp`) provides an intuitive frontend interf
 
 ---
 
-## 🚀 How to Run the Project Locally
+## How to Run the Project Locally
 
 ### 1. Run the FastAPI Backend
 ```bash
